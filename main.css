@@ -1,0 +1,55 @@
+.nav a {
+  color: #362362;
+  font-size: 12px;
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.jumbotron {
+  background-image:url('http://i.imgur.com/3sB2KpI.jpg');
+  height: 700px;
+  width: 1000px;
+}
+
+.jumbotron h1 {
+  color: #88A2FF;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  color: #88A2FF;
+  font-size: 20px;
+  font-family: 'Shift', sans-serif;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #362362;
+}
+
+.learn-more a {
+    color: #3F1499;
+}
+
+body{
+  background-color: #FFE9C4;
+}
+
+@font-face {
+  font-family: 'Shift';
+  font-style: normal;
+  font-weight: normal;
+  src: url("http://s3.amazonaws.com/codecademy-content/courses/ltp/fonts/shift.woff") format("woff");
+}
+@font-face {
+  font-family: 'Shift';
+  font-style: normal;
+  font-weight: bold;
+  src: url("http://s3.amazonaws.com/codecademy-content/courses/ltp/fonts/shift-bold.woff") format("woff");
+}
